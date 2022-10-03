@@ -17,7 +17,7 @@ Janeiro - (lucashiago.github.io)
 Fevereiro - (lucashiago.github.io)
 01. a 28. - Implementar front-end [x]
 
-Março a junho - MONETIZAR PRIMEIRO (Ação SQUADEVOPS)
+Março a junho - MONETIZAR PRIMEIRO (Ação SQUADEVOPS) [x]
 
 Junho a Dezembro - (Cripto Game) * Looping *
 01. - Blockchain basics - Blockchain advanced knowledge
