@@ -4,8 +4,12 @@
 
 ## A planet with this requirements
 - [ ] non-procedural planets
-- [ ] hearth || asteroth
+- [ ] hearth 
+- [ ] asteroth
+- [ ] moon
+- [ ] sun
 - [ ] planet needs nucleo
+- [ ] nucleo make gravity
 - [ ] planet needs magma
 - [ ] planet needs crust
 - [ ] planet needs caves
@@ -18,15 +22,8 @@
 - [ ] planet needs trees
 - [ ] planet needs life
 - [ ] planet needs animals
-- [ ] moon
-- [ ] planet needs nucleo
-- [ ] planet needs magma
-- [ ] planet needs crust
-- [ ] planet needs minerals
-- [ ] planet needs caves
-- [ ] sun
-- [ ] planet needs nucleo
-- [ ] planet needs magma
-- [ ] planet needs minerals
 
+
+
+- [x] procedural worlds learnings
 https://canopy.procedural-worlds.com/files/file/40-game-ready-level-fantasy-kingdom-02-builtin/
