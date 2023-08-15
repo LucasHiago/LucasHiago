@@ -3,9 +3,9 @@
 ### Asteroth
 
 ## A planet with this requirements
-- [ ] non-procedural planets
-- [ ] hearth 
-- [ ] asteroth
+- [x] non-procedural planets
+- [x] hearth 
+- [x] asteroth
 - [ ] moon
 - [ ] sun
 - [ ] planet needs nucleo
