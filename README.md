@@ -1,5 +1,5 @@
 # Asteroth
-![Asteroth title concept created at 2013](https://photos.google.com/photo/AF1QipPgsVHfT8Hfj1ClNOgkwHATGOXFZMl2AJkf8CtH)
+![Asteroth title concept created at 2013](https://photos.app.goo.gl/eKXZXc3DLGQxwmmg9)
 - MMORPG
 
 ### Asteroth vision (Isometric)
