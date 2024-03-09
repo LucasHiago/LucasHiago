@@ -23,7 +23,7 @@
 
 ## In Asteroth you can build a city
 - When you stay offline traps can protect you
-- * traps cause damage
+  * traps cause damage
   * traps cause slow
   * traps cause silence
 - In Asteroth you can conquer a city
