@@ -67,4 +67,5 @@
 
 [Base history Asteroth](https://docs.google.com/document/d/1LuDPfviZ88G22-sRTWlwPqgNYt_U2yhAzYpFDi5Bu1I/edit)
 
+[Common concepts](https://www.notion.so/Asteroth-49ce46bfcf4d443a891f68e51577121f)
 
