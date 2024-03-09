@@ -39,6 +39,19 @@
 - you need cartographer
 - cartographer is a profession (an explorer | an adventurer)
 
+## In Asteroth you have a lot of Professions (classes)
+- cartographer
+- merchant
+- adventurer
+  *  soldier
+  *  assassin
+  *  paladin
+  *  priest
+  *  demon
+  *  archer
+  *  engineer
+
+
 ## In Asteroth a dugeon just to emerge
 - when you change nature it responds to these changes
 - type of mobs make an specific dugeon
