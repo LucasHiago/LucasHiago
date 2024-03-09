@@ -42,6 +42,7 @@
 ## In Asteroth you have a lot of Professions (classes)
 - cartographer
 - merchant
+- crafter
 - adventurer
   *  soldier
   *  assassin
