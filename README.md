@@ -34,6 +34,12 @@
 - you need cartographer
 - cartographer is a profession (an explorer | an adventurer)
 
+## In Asteroth a dugeon just to emerge
+- when you change nature it responds to these changes
+- type of mobs make an specific dugeon
+
+## In Asteroth we have Cthulhu
+
 [Complex concepts](https://www.figma.com/file/E8NUrxF0Zewbh1yjEjK4TQ/Asteroth-Concept?type=design&node-id=0-1&mode=design&t=xVspUdKty8xuAWqE-0)
 
 
