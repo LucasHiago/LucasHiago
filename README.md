@@ -1,5 +1,9 @@
 # Asteroth
 - MMORPG
+
+### Asteroth vision (Isometric)
+### Asteroth sustain
+  
 - A planet with this requirements
 - [x] non-procedural planets
 - [x] hearth 
@@ -39,8 +43,12 @@
 - type of mobs make an specific dugeon
 
 ## In Asteroth we have Cthulhu
+- Global
+
+## In Asteroth all skills you need to aim
+## In Asteroth pets have sense and skills and you need to aim
 
 [Complex concepts](https://www.figma.com/file/E8NUrxF0Zewbh1yjEjK4TQ/Asteroth-Concept?type=design&node-id=0-1&mode=design&t=xVspUdKty8xuAWqE-0)
-
+[Base history Asteroth](https://docs.google.com/document/d/1LuDPfviZ88G22-sRTWlwPqgNYt_U2yhAzYpFDi5Bu1I/edit)
 
 
