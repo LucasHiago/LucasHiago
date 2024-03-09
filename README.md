@@ -1,6 +1,6 @@
-### Asteroth
-## MMORPG
-## A planet with this requirements
+# Asteroth
+- MMORPG
+- A planet with this requirements
 - [x] non-procedural planets
 - [x] hearth 
 - [x] asteroth
@@ -22,10 +22,10 @@
 - [ ] planet needs animals
 
 ## In Asteroth you can build a city
-### When you stay offline traps can protect you
-## In Asteroth you can conquer a city
-## In Asteroth you can travel with your ship
-## In Asteroth you can be whatever you want
+- When you stay offline traps can protect you
+- In Asteroth you can conquer a city
+- In Asteroth you can travel with your ship
+- In Asteroth you can be whatever you want
 
 [Complex concepts](https://www.figma.com/file/E8NUrxF0Zewbh1yjEjK4TQ/Asteroth-Concept?type=design&node-id=0-1&mode=design&t=xVspUdKty8xuAWqE-0)
 
