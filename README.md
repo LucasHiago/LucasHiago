@@ -32,7 +32,7 @@
 
 ## In Asteroth map is gold
 - you need cartographer
-- cartographer is a class (an explorer | an adventurer)
+- cartographer is a profession (an explorer | an adventurer)
 
 [Complex concepts](https://www.figma.com/file/E8NUrxF0Zewbh1yjEjK4TQ/Asteroth-Concept?type=design&node-id=0-1&mode=design&t=xVspUdKty8xuAWqE-0)
 
