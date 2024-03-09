@@ -1,7 +1,5 @@
-### Timeline 2026
-
 ### Asteroth
-
+## MMORPG
 ## A planet with this requirements
 - [x] non-procedural planets
 - [x] hearth 
@@ -23,7 +21,9 @@
 - [ ] planet needs life
 - [ ] planet needs animals
 
+## In Asteroth you can build a city
+### When you stay offline traps can protect you
+## In Asteroth you can conquer a city
+## In Asteroth you can travel with your ship
+## In Asteroth you can be whatever you want
 
-
-- [x] procedural worlds learnings
-https://canopy.procedural-worlds.com/files/file/40-game-ready-level-fantasy-kingdom-02-builtin/
