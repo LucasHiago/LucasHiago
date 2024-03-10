@@ -69,3 +69,10 @@
 
 [Common concepts](https://www.notion.so/Asteroth-49ce46bfcf4d443a891f68e51577121f)
 
+
+## Inspirations to Asteroth
+
+[Shaping map](https://www.youtube.com/watch?v=6bnFfE82AJg)
+[Making voxel world](https://www.youtube.com/watch?v=G5H7oRlr11s)
+[LOD Planet](https://www.youtube.com/watch?v=lThxbFvbRew&list=PLwRBcuYHwOZ9QVCaZWChCugGIsWuUaTZA)
+[LOD Unity](https://www.youtube.com/watch?v=lThxbFvbRew)
