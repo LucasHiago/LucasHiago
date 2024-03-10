@@ -2,6 +2,9 @@
 ![Asteroth title concept created at 2013](https://scontent.fplu39-1.fna.fbcdn.net/v/t1.6435-9/69718261_2254637104847562_6329500450940780544_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=FhB8OZvHetYAX_aZo5V&_nc_ht=scontent.fplu39-1.fna&oh=00_AfApt2LC0KRnnKWcFlWfZrGHU9J7y3Oh_55Lw6oyypz58g&oe=6613431A)
 - MMORPG
 
+## Asteroth History
+[Asteroth EN](https://docs.google.com/document/d/1LuDPfviZ88G22-sRTWlwPqgNYt_U2yhAzYpFDi5Bu1I/edit?usp=sharing)
+
 ### Asteroth vision (Isometric)
 ### Asteroth sustain
   
