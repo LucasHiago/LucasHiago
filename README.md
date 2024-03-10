@@ -4,6 +4,7 @@
 
 ## Asteroth History
 [Asteroth EN](https://docs.google.com/document/d/1LuDPfviZ88G22-sRTWlwPqgNYt_U2yhAzYpFDi5Bu1I/edit?usp=sharing)
+
 [Asteroth PT](https://docs.google.com/document/d/1JtO8rGEvJU0raPRVc7Fga0QPD4SBoPoNWiTtjpG_eIc/edit?usp=sharing)
 
 ### Asteroth vision (Isometric)
