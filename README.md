@@ -12,6 +12,7 @@
   
 - A planet with this requirements
 - [x] non-procedural planets
+- [x] voxel planet
 - [x] hearth 
 - [x] asteroth
 - [ ] moon
