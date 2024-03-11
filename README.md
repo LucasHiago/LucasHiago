@@ -51,6 +51,7 @@
 - crafter
 - adventurer
   *  soldier
+  *  buccaneer
   *  assassin
   *  paladin
   *  priest
