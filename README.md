@@ -94,4 +94,5 @@
 
 ![](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/azazel.png)
 ![](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/beelzebub.png)
+![](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/cthulhu.png)
 
