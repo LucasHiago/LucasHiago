@@ -93,4 +93,4 @@
 
 ##Cthulhu
 
-![Cthulhu concept created](https://cdn.leonardo.ai/users/4db22ff5-cc1a-435e-8334-4874f47512ab/generations/46999e79-cc6d-4a0c-a921-6e2d714b63ca/Default_Cthulhu_colossus_an_giant_entity_with_full_body_of_unf_0.jpg)
+![Cthulhu concept created](https://cdn.leonardo.ai/users/4db22ff5-cc1a-435e-8334-4874f47512ab/generations/1d8e7b7a-61d8-43c2-9a73-3b298bec15ef/Default_Cthulhu_colossus_an_giant_entity_with_full_body_and_de_0.jpg)
