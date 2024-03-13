@@ -92,7 +92,9 @@
 
 ## Bosses
 
-![](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/azazel.png)
-![](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/beelzebub.png)
-![](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/cthulhu.png)
+![Cthulhu](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/cthulhu.png)
+![Azazel](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/azazel.png)
+![Beelzebub](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/beelzebub.png)
+![Hastur](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/hastur.png)
+![Metatron](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/metatron.png)
 
