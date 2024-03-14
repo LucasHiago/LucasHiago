@@ -90,6 +90,8 @@
 
 [LOD Unity](https://www.youtube.com/watch?v=lThxbFvbRew)
 
+[LOD Tutorial](https://www.youtube.com/watch?v=NwdsM-MRfzw)
+
 ## Bosses
 
 ![Cthulhu](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/cthulhu.png)
