@@ -92,6 +92,9 @@
 
 [LOD Tutorial](https://www.youtube.com/watch?v=NwdsM-MRfzw)
 
+[Quadtree planet](https://www.youtube.com/watch?v=Gv-HV97yDKY)
+[Quadtree planet II](https://www.youtube.com/watch?v=mVF9dRKMbwk)
+
 ## Bosses
 
 ![Cthulhu](https://raw.githubusercontent.com/LucasHiago/LucasHiago/main/assets/cthulhu.png)
