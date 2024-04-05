@@ -92,7 +92,10 @@
 
 [LOD Tutorial](https://www.youtube.com/watch?v=NwdsM-MRfzw)
 
+[Genshin Style Terrain Tutorial](https://www.youtube.com/watch?v=svVps8uih7c)
+
 [Quadtree planet](https://www.youtube.com/watch?v=Gv-HV97yDKY)
+
 [Quadtree planet II](https://www.youtube.com/watch?v=mVF9dRKMbwk)
 
 ## Bosses
