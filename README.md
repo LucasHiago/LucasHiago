@@ -248,6 +248,7 @@ Esse módulo nasceu da dor de manter **APIs grandes sem virar bagunça**.
 
 ## 🜏 Asteroth
 
+![Asteroth title concept created at 2013](https://github.com/LucasHiago/Asteroth/blob/main/white_red_bg.png)
 Asteroth é um projeto experimental que cruza:
 - Backend robusto
 - Automação
