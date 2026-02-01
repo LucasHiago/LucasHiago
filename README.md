@@ -249,21 +249,39 @@ Esse módulo nasceu da dor de manter **APIs grandes sem virar bagunça**.
 ## 🜏 Asteroth
 
 ![Asteroth title concept created at 2013](https://github.com/LucasHiago/Asteroth/blob/main/white_red_bg.png)
-Asteroth é um projeto experimental que cruza:
-- Backend robusto
-- Automação
-- Conceitos de agentes
-- Arquitetura orientada a eventos
+Asteroth é um planeta contínuo, um único mapa persistente, sem shards visíveis e sem telas de loading. O jogador nasce em um ponto do planeta e pode literalmente dar a volta no mundo.
 
-É um laboratório de ideias onde arquitetura vem antes da interface.
+Visualmente pode manter a leitura top down/isométrica de Albion, mas estruturalmente funciona como um planeta esférico projetado em chunks.
 
-Aqui entram:
-- Testes de LLMs
-- Integração de IA com regras reais
-- Pipelines que não dependem de hype
+Mundo como planeta, não mapa plano
+Tecnicamente você não cria uma esfera gigante renderizada inteira. Você cria:
+Um planeta matemático (raio, centro, gravidade).
+A superfície é dividida em chunks geodésicos ou tiles adaptativos.
+Cada chunk carrega terreno, bioma, recursos, mobs e players próximos.
+O servidor streama chunks conforme posição e direção do player.
+O jogador anda “reto”, mas o vetor de gravidade e orientação muda sutilmente. Ele nunca percebe a curvatura, só sente que o mundo é infinito.
 
-Nem todo projeto precisa virar SaaS.  
-Alguns existem para **afiar a lâmina**.
+Biomas e ecossistemas
+
+Cinturão equatorial: PvP intenso, recursos raros.
+Regiões temperadas: cidades, craft, comércio.
+Polos: clima extremo, mobs únicos, endgame.
+Tudo conectado, sem borda invisível.
+Combate e progressão estilo Albion
+
+Mantém o DNA:
+Skill baseada em equipamento.
+
+Nada de classes fixas.
+Pode mudar de classe baseado em reset, pois cada classe trás de forma inata algumas skills
+Full loot ou loot parcial por região.
+Economia 100% player driven.
+A diferença é estratégica: controlar territórios agora significa controlar regiões do planeta, rotas comerciais e até o clima econômico.
+
+Cidades e política
+Cidades surgem onde players constroem.
+Guilds podem dominar continentes inteiros.
+Com o tempo, o planeta muda. Florestas somem, desertos avançam, cidades viram ruínas. O mundo conta história.
 
 ---
 
