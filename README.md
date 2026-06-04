@@ -1,19 +1,19 @@
-# 🚀 Steply & LucasHiago  
+# 🚀 Steply & LucasHiago
 Arquitetura, produto e código com propósito
 
 Este repositório representa dois universos que se cruzam: **Steply**, uma operação de tecnologia focada em execução real de produto, e **LucasHiago**, a identidade técnica por trás das decisões, arquitetura e código.
 
-Não é sobre frameworks da moda.  
+Não é sobre frameworks da moda.
 É sobre **resolver problemas reais com engenharia sólida**.
 
 ---
 
-## 🌐 Projetos
+## 🌐 Os dois lados
 
-### 🔗 Steply  
-**Site:** https://steply.com.br  
+### 🔗 Steply
+**Site:** https://steply.com.br
 
-Steply é uma operação de **outsourcing técnico e desenvolvimento de produto** focada em startups, empresas em crescimento e fundadores que precisam de execução, não de promessa.
+Operação de **outsourcing técnico e desenvolvimento de produto** focada em startups, empresas em crescimento e fundadores que precisam de execução, não de promessa.
 
 A Steply nasce da dor clássica do mercado:
 - Projetos que não saem do papel
@@ -21,33 +21,27 @@ A Steply nasce da dor clássica do mercado:
 - Arquitetura improvisada
 - Times inchados sem eficiência
 
-Aqui, a proposta é simples: **engenharia responsável, entrega contínua e visão de negócio**.
+A proposta: **engenharia responsável, entrega contínua e visão de negócio**.
 
----
+### 🔗 LucasHiago
+**Site:** https://www.lucashiago.com.br
 
-### 🔗 LucasHiago  
-**Site:** https://www.lucashiago.com.br  
+Manifesto técnico. Não é portfólio genérico, é um mapa mental de como eu penso software, produto, arquitetura e crescimento. Mora aqui:
 
-Este site é o **manifesto técnico**.  
-Não é portfólio genérico. É um mapa mental de como eu penso software, produto, arquitetura e crescimento.
-
-É onde ficam:
-- Estudos
-- Experimentos
-- Manifestos
+- Estudos e experimentos
 - Provas de conceito
-- Artigos técnicos
+- Manifestos e artigos técnicos
 - Ideias que ainda não viraram produto
 
 ---
 
 ## 🧠 Filosofia de Engenharia
 
-> Código é uma consequência.  
-> Arquitetura é uma decisão.  
+> Código é uma consequência.
+> Arquitetura é uma decisão.
 > Produto é um compromisso.
 
-Alguns princípios que guiam tudo aqui:
+Princípios que guiam tudo aqui:
 
 - Simplicidade antes de abstração
 - Escala pensada desde o MVP
@@ -58,417 +52,237 @@ Alguns princípios que guiam tudo aqui:
 
 ---
 
-## 🧱 Stack Principal
+## 🆕 Marcos recentes (2025–2026)
+
+Os últimos meses foram um salto: além de operar a Steply, abri três frentes próprias que mudaram como eu trabalho — **um framework de processo (SDD harness)**, **um MMORPG autoral em planeta esférico (Asteroth)** e **um eixo IA aplicada com MCP + Blender + agentes**. Cada uma vira seção abaixo, com a foto real do que existe hoje.
+
+---
+
+## 🏛️ Steply SDD Harness — `steply-sdd-harness-arch`
+
+> Spec-Driven Development como sistema operacional do processo.
+
+O harness é o **arcabouço de spec-driven development** que rege como Steply (e Asteroth) saem do papel. Não é metodologia em slide — é um conjunto de regras, templates e ferramentas executáveis que estrutura **épico → issue → spec → código**, com tudo rastreável via GitHub CLI (`gh`) e versionado no Git.
+
+### O que ele entrega
+
+- **Hierarquia explícita**: Fase (F#) → Épico (E# = Milestone + Discussion) → Issue → PR. Nenhuma issue órfã. Todo épico tem dois artefatos no GitHub (Milestone como fonte de verdade do status + Discussion como checklist viva do escopo).
+- **Templates de épico e spec** (`docs/templates/EPIC.md`, `EPICS.md`) que padronizam tracking entre Asteroth, Steply e laterais.
+- **Style guide arquitetural** (`STYLE_GUIDE.md`) — design system Steply replicável (CSS variables, dark/light, tokens) e padrões de stack para dashboards e produtos do ecossistema.
+- **Tooling automatizado** (`tools/`): `bulk_create_epics.py`, `spec_report.py`, `sync_design_specs.py` — épicos em lote, relatórios de progresso, sincronização de specs entre repos.
+- **ERD versionado** como source-of-truth de domínio (`erd/source-of-truth/`, `erd/changelog.json`).
+- **Roteiros de implantação** (n8n VPS e AWS) prontos para reproduzir infra de automação.
+
+### Por que existe
+
+Porque **arquitetura sem processo vira folclore**. O harness força clareza de escopo antes do commit, deixa rastro auditável das decisões e reduz drasticamente o custo de onboard em projetos longos como o Asteroth.
+
+---
+
+## 🜏 Asteroth — MMORPG isométrico em planeta esférico
+
+> Em desenvolvimento desde 2012, em engine própria C++, sem publisher, sem prazo imposto.
+
+O Asteroth não é mais "ideia + concept art". É um projeto vivo, dividido em três repositórios complementares, e estruturado pelo SDD harness acima.
+
+### 🌍 [`asteroth-public`](https://github.com/LucasHiago/asteroth-public) — o canal externo
+
+Espaço público do mundo. Aqui não tem código de jogo, tem **mundo**:
+
+- **Lore cosmogônica** ([`LORE.md`](https://github.com/LucasHiago/asteroth-public/blob/main/LORE.md)) — a origem das partículas, Asteroth como entidade, o planeta físico (esfera real, sol, duas luas, civilização 100% player-driven).
+- **Os Governantes** ([`GOVERNANTES.md`](https://github.com/LucasHiago/asteroth-public/blob/main/GOVERNANTES.md)) — panteão de 26 entidades (Cthulhu, Azazel, Beelzebub, Metatron, Hastur, Abaron, Abaddon, Mammon, Baphomet, Asratheet + 16 regentes menores), cada um com condição de despertar própria.
+- **Mecânicas** ([`GAMEPLAY.md`](https://github.com/LucasHiago/asteroth-public/blob/main/GAMEPLAY.md)) — classes, fama, ciclo `explorar → coletar → construir → defender → ser invadido → reconstruir`.
+- **Contos** ([`stories/`](https://github.com/LucasHiago/asteroth-public/tree/main/stories)) — material narrativo curto, candidato a virar livro.
+- **Conceitos visuais** ([`concepts/worlds/`](https://github.com/LucasHiago/asteroth-public/tree/main/concepts/worlds)) — 17 concept arts do mundo, cada uma com vinheta curta.
+- **Status pública** via [`CHANGELOG.md`](https://github.com/LucasHiago/asteroth-public/blob/main/CHANGELOG.md).
+
+### 🧪 [`asteroth-learnings`](https://github.com/LucasHiago/asteroth-learnings) — pesquisa fundacional
+
+Repositório de pesquisa técnica do projeto. ~147 documentos divididos em 9 pilares (renderização iso, movimento iso, networking, ECS, física, mundo esférico, biomas, infra MMO, integração de stack).
+
+Highlight: o **`lowpoly_generator`** — pipeline em produção que converte sprite-sheet ortográfica (front/side/back, escala em metros) em mesh low-poly 3D fiel à arte:
+
+```
+sprite sheet ortográfico
+   ↓ slice_sheets.py (Blender)
+slices + metadata (bbox + m_per_px)
+   ↓ 01_extract/ — 8 features por slice
+silhouette · keypoints · edges · palette · depth · normals · parts · symmetry
+   ↓ 02_fuse/ — landmarks 3D + visual hull
+   ↓ 06_ai/run_hunyuan_cloud.py
+Hunyuan3D-2 multi-view via HF Space (~5s)
+   ↓ postprocess: decimate (~2k tris) + rescale métrico
+character.glb pronto pra engine
+```
+
+A descoberta central da pesquisa: **CV clássico (visual hull + primitives + shrinkwrap) bate na parede em fidelidade artística**. A solução foi inverter o paradigma — usar nosso pipeline pra preparar inputs alinhados (3 vistas em escala métrica + landmarks) e delegar a inferência 3D pra uma IA multi-view. **Híbrido CV + IA generativa** entrega resultado em segundos.
+
+A stack escolhida pro engine está consolidada em `research/10-integration/` (~22 libs C++ defensivamente avaliadas — Flecs, Jolt, GNS, etc).
+
+### 🔒 [`Asteroth`](https://github.com/LucasHiago/Asteroth) — engine + jogo (privado)
+
+Engine própria em C++. Atualmente na **Fase 0: Fundação 3D** (pipeline de renderização — cubo isométrico, depth test, sistema de mesh). Roadmap segue até MMO infra (Fase 5) e conteúdo (Fase 6+).
+
+Diferencial técnico do mundo: o jogador caminha em volta de uma esfera real, com horizonte curvo, sol nascendo e duas luas atravessando o céu — **não é skybox falso, é geometria de planeta**.
+
+---
+
+## 🤖 Eixo IA aplicada — MCP, Blender e agentes
+
+Não como buzzword. Como ferramenta de produção.
+
+### 🎬 `anime-maker` — pipeline `prompt → MP4` via MCP + Blender
+
+Pipeline pra **criar animes** controlando Blender remotamente via **Model Context Protocol** (MCP stdio):
+
+1. IA gera concept art 2D do personagem (Fal.ai)
+2. IA converte imagem → modelo 3D rigado (Meshy.ai, image-to-3d + auto-rigging)
+3. Blender controlado via MCP monta a cena, aplica animação pronta (walk/run)
+4. Render **NPR vanilla** (Toon BSDF via Shader-to-RGB + ColorRamp + Freestyle) frame a frame, câmera ortográfica para a "sensação 2D" anime
+5. Frames PNG + MP4 (ffmpeg) saem prontos por episódio
+
+CLI Typer end-to-end: `anime-maker init → character build → scene new → scene add-character → animate → render`. Stack: Python 3.10+ · Typer · MCP · Blender · Meshy.ai.
+
+Este projeto é a **prova de conceito** de que MCP + Blender + image-to-3D dá pra montar um pipeline cinematográfico controlado por linguagem natural, sem operador artista no loop.
+
+### 🧠 `agentes-langchain-lab` — agentes do zero, sem framework escondendo as engrenagens
+
+Lab pessoal pra estudar **orquestração de agentes** com peças trocáveis:
+
+```
+   pergunta ──► researcher ───► writer ──► resposta
+                 │ tool: search_docs
+                 ▼
+           PGVector (pg16) ← embeddings MiniLM (384d)
+```
+
+- Orquestração: **LangGraph** (`StateGraph`) — fluxo entre agentes explícito e inspecionável
+- Agentes: **LangChain** `create_react_agent` — loop ReAct ("pensa → chama tool → observa")
+- LLM: **Claude Haiku 4.5** (barato pra iterar)
+- Vector store: **PostgreSQL + pgvector** (sem subir mais uma peça de infra)
+- Embeddings: **MiniLM-L6-v2** local (zero API key extra)
+- Infra: Docker Compose, `up -d` e tá pronto
+
+O ponto: trocar peças (LLM, tool, vetor, política de roteamento) e ver o efeito imediato, sem framework de alto nível escondendo o que está acontecendo.
+
+### 📚 [`SKILLS`](https://github.com/LucasHiago/SKILLS) — skills públicas
+
+Skills (no padrão Claude Code) baseadas nos artigos do `lucashiago.com.br`, focadas em fluxo Steply. Repositório público.
+
+---
+
+## 🛠️ Stack principal
 
 ### 🎨 Frontend
 
-#### Angular 16+
-Usado quando o projeto exige:
-- Estado complexo
-- Forms robustos
-- Longa vida útil
-- Escalabilidade de equipe
+**Angular 16+** — usado quando o projeto exige estado complexo, forms robustos, longa vida útil e escalabilidade de equipe. Signals, Standalone Components, SCSS com design system próprio, PWA first, arquitetura orientada a domínio.
 
-Destaques:
-- Signals
-- Standalone Components
-- SCSS com design system próprio
-- PWA first
-- Arquitetura orientada a domínio no front
-
----
-
-#### React / Next.js
-Usado quando a prioridade é:
-- Performance
-- SEO
-- Time-to-market
-- Dashboards e produtos B2B
-
-Destaques:
-- App Router
-- Server Components
-- TanStack Query
-- Bryntum Gantt
-- Integração pesada com APIs e estados complexos
-
----
+**React / Next.js** — usado quando a prioridade é performance, SEO, time-to-market, dashboards e produtos B2B. App Router, Server Components, TanStack Query, Bryntum Gantt, integração pesada com APIs e estados complexos.
 
 ### ⚙️ Backend
 
-#### NestJS
-O coração de quase tudo.
+**NestJS** — o coração de quase tudo. Arquitetura clara, escala natural, código previsível, ótimo pra times. DTOs bem definidos, Guards e Interceptors, domain-driven migrations, integração com filas, workers e IA. APIs pensadas pra evolução, não só pra funcionar hoje.
 
-Motivos:
-- Arquitetura clara
-- Escala natural
-- Código previsível
-- Ótimo para times
+**Laravel** — usado estrategicamente em sistemas administrativos, backoffices e projetos legados bem tratados. Laravel 9+, Vue 2.7, Policies bem definidas, permissões com Spatie.
 
-Destaques:
-- DTOs bem definidos
-- Guards e Interceptors
-- Domain-driven migrations
-- Integração com filas, workers e IA
-- APIs pensadas para evolução, não só para funcionar hoje
+### 🗄️ Banco
 
----
-
-#### Laravel
-Usado estrategicamente em:
-- Sistemas administrativos
-- Backoffices
-- Projetos legados bem tratados
-
-Destaques:
-- Laravel 9+
-- Vue 2.7
-- Policies bem definidas
-- Permissões com Spatie
-- Performance cuidada, sem magia desnecessária
-
----
-
-### 🗄️ Banco de Dados
-
-#### PostgreSQL
-Quando o projeto é sério.
-
-- Domínios customizados
-- Tipos fortes
-- Triggers conscientes
-- Migrações versionadas
-
-#### MySQL / MariaDB
-Quando o contexto pede compatibilidade ou legado.
-
-- Diagnóstico de performance
-- Slow query log
-- Índices bem pensados
-- Sem SELECT *
-
----
+**PostgreSQL** quando o projeto é sério — domínios customizados, tipos fortes, triggers conscientes, migrações versionadas. **+ pgvector** quando entra IA/RAG.
+**MySQL / MariaDB** quando o contexto pede compatibilidade ou legado — diagnóstico de performance, slow query log, índices bem pensados, sem `SELECT *`.
 
 ### ☁️ DevOps & Infra
 
-- Docker & Docker Compose
-- PM2
-- Vercel
-- Linux first
-- Monitoramento real, não só dashboard bonito
-- Scripts próprios para diagnóstico e manutenção
+Docker & Docker Compose · PM2 · Vercel · Linux first · monitoramento real, não só dashboard bonito · scripts próprios pra diagnóstico e manutenção · **n8n self-hosted** em VPS e AWS (roteiros prontos no SDD harness).
 
-Infra aqui não é luxo.  
-É **fundação**.
-
----
+Infra aqui não é luxo. É **fundação**.
 
 ### 🤖 IA & Automação
 
-Não como buzzword. Como ferramenta.
-
 - LLMs locais (Ollama)
-- APIs de IA para geração de conteúdo e interfaces
+- Claude API (Anthropic) — Opus/Sonnet/Haiku por tier de tarefa, prompt caching obrigatório
+- **MCP** — Model Context Protocol como ponte para Blender, Google Drive, Canva e tooling próprio
+- LangGraph + LangChain pra agentes orquestrados
+- pgvector pra RAG
 - TTS com Piper
-- Experimentos com agentes e automação de processos
 - IA integrada ao produto, não jogada por cima
 
----
+### 🎮 Gamedev
 
-## 📦 Produtos & Experimentos
-
-Alguns projetos que orbitam este ecossistema:
-
-- **Organos**  
-  PWA de gestão para MEI e pequenos negócios
-
-- Dashboards internos
-- Ferramentas de automação
-- Provas de conceito em web, jogos e IA
+C++ próprio (engine Asteroth) · GDScript (Godot) · Blender via Python `bpy` e via MCP.
 
 ---
 
-## 🧭 O Objetivo
+## 📦 Outros projetos & produtos
 
-Construir:
-- Produtos sustentáveis
-- Código que envelhece bem
-- Times que entendem o que estão fazendo
-- Sistemas que não implodem em 6 meses
+Ecossistema Steply em produção e em forno:
 
-Steply é o veículo.  
-LucasHiago é o arquiteto.
+- **`services.steply.pm2`** — orquestração PM2 dos serviços Steply (realtime chat com WebRTC + ICE relay, blog publisher SSR, integrações).
+- **`build-market-business-frontend` / `-dashboard`** — produto B2B em React.
+- **`main.steply.build`** — site institucional.
+- **`-F-DevSRC`** — base TypeScript.
+- **`integration-mercado-pago-nestjs`** — integração de pagamentos NestJS.
+- **`lp.email.sender`** — disparador de campanhas próprio.
+- **`lucashiago.resume`** — currículo enquanto HTML versionado.
 
----
+Históricos que ainda ensinam (e às vezes ainda rodam em produção):
 
-## 📫 Contato
-
-- Site Steply: https://steply.com.br  
-- Site pessoal: https://www.lucashiago.com.br  
-- LinkedIn: https://www.linkedin.com/in/lucashdsf/
-
----
-
-> Software não é arte abstrata.  
-> É engenharia aplicada ao mundo real.
-
-## 🧪 Projetos, Produtos e Experimentos
-
-Este ecossistema não nasceu de tutoriais.  
-Nasceu de **problemas reais**, demandas de cliente, gargalos técnicos e curiosidade aplicada.
-
-Alguns projetos viraram produto.  
-Outros viraram base arquitetural.  
-Todos deixaram código melhor do que encontraram.
+- **galax-api / galax-commerce** — núcleo NestJS + camada de e-commerce desacoplada, backend-first.
+- **Poker Electron** — desktop multiplataforma, prova de que Electron não é gambiarra quando bem arquitetado.
+- **NFMEI** — sistema fiscal pra microempreendedores, simplificando o que sistemas enterprise complicam.
+- **Fashion Manager** — gestão de coleções e estoque, o desafio era traduzir negócio específico pra software sem forçar o cliente a se adaptar.
+- **docsModule (NestJS)** — módulo reutilizável de documentação viva de APIs, pensado pra padronizar Swagger em projetos grandes sem poluir controllers.
 
 ---
 
-## 📚 docsModule (NestJS)
+## 🏗️ Consultoria & operação técnica
 
-Um módulo reutilizável para **documentação viva de APIs em NestJS**.
+Além dos autorais, atuo entrando em projetos onde:
 
-Não é só Swagger plugado.  
-É uma camada pensada para padronizar, versionar e organizar documentação em projetos médios e grandes.
-
-### O problema que ele resolve
-- Swagger espalhado
-- Controllers poluídos
-- Documentação quebrando a cada refactor
-- Falta de padrão entre squads
-
-### O que ele entrega
-- Módulo isolado e plugável
-- Organização por domínio
-- Integração limpa com DTOs
-- Pensado para projetos enterprise
-
-Esse módulo nasceu da dor de manter **APIs grandes sem virar bagunça**.
-
----
-
-## 🜏 Asteroth
-
-![Asteroth title concept created at 2013](https://github.com/LucasHiago/Asteroth/blob/main/white_red_bg.png)
-Asteroth é um planeta contínuo, um único mapa persistente, sem shards visíveis e sem telas de loading. O jogador nasce em um ponto do planeta e pode literalmente dar a volta no mundo.
-
-Visualmente pode manter a leitura top down/isométrica de Albion, mas estruturalmente funciona como um planeta esférico projetado em chunks.
-
-Mundo como planeta, não mapa plano
-Tecnicamente você não cria uma esfera gigante renderizada inteira. Você cria:
-Um planeta matemático (raio, centro, gravidade).
-A superfície é dividida em chunks geodésicos ou tiles adaptativos.
-Cada chunk carrega terreno, bioma, recursos, mobs e players próximos.
-O servidor streama chunks conforme posição e direção do player.
-O jogador anda “reto”, mas o vetor de gravidade e orientação muda sutilmente. Ele nunca percebe a curvatura, só sente que o mundo é infinito.
-
-Biomas e ecossistemas
-
-Cinturão equatorial: PvP intenso, recursos raros.
-Regiões temperadas: cidades, craft, comércio.
-Polos: clima extremo, mobs únicos, endgame.
-Tudo conectado, sem borda invisível.
-Combate e progressão estilo Albion
-
-Mantém o DNA:
-Skill baseada em equipamento.
-
-Nada de classes fixas.
-Pode mudar de classe baseado em reset, pois cada classe trás de forma inata algumas skills
-Full loot ou loot parcial por região.
-Economia 100% player driven.
-A diferença é estratégica: controlar territórios agora significa controlar regiões do planeta, rotas comerciais e até o clima econômico.
-
-Cidades e política
-Cidades surgem onde players constroem.
-Guilds podem dominar continentes inteiros.
-Com o tempo, o planeta muda. Florestas somem, desertos avançam, cidades viram ruínas. O mundo conta história.
-
----
-
-## ♠ Poker Electron
-
-Aplicação desktop construída com **Electron** para gerenciamento e suporte a ambientes de poker.
-
-### Destaques técnicos
-- Desktop multiplataforma
-- Integração com APIs externas
-- Gerenciamento de estado local
-- Performance cuidada mesmo fora do browser
-
-Esse projeto mostrou claramente que:
-> Electron não é gambiarra quando bem arquitetado.
-
----
-
-## 🌌 galax-api
-
-API backend construída como **núcleo de um ecossistema**.
-
-Pensada desde o início para:
-- Escalar
-- Ser consumida por múltiplos frontends
-- Evoluir sem quebrar tudo
-
-### Stack
-- NestJS
-- PostgreSQL
-- Autenticação sólida
-- Domínio bem separado de infraestrutura
-
-galax-api é base.  
-Sem pressa. Sem atalhos.
-
----
-
-## 🛒 galax-commerce
-
-Camada de **e-commerce desacoplada**, construída sobre a galax-api.
-
-### Características
-- Backend-first
-- Regras de negócio claras
-- Preparada para múltiplos canais
-- Não acoplada a tema ou frontend específico
-
-Aqui a ideia nunca foi “loja bonita”, e sim **negócio sustentável**.
-
----
-
-## 🧾 NFMEI
-
-Sistema focado em **microempreendedores individuais (MEI)**.
-
-### Objetivo
-Simplificar emissão, controle e entendimento de notas fiscais.
-
-### Princípios
-- Interface simples
-- Linguagem acessível
-- Backend confiável
-- Nada de overengineering
-
-NFMEI nasce da observação direta:
-> Pequenos negócios sofrem porque sistemas são feitos para empresas grandes.
-
----
-
-## 👗 Fashion Manager
-
-Sistema de gestão voltado para o **segmento de moda**.
-
-### Foco em
-- Controle de coleções
-- Estoque
-- Processos internos
-- Organização de fluxo
-
-Aqui o desafio não era técnico.  
-Era **traduzir um negócio específico para software** sem forçar o cliente a se adaptar ao sistema.
-
----
-
-## 🏗️ Projetos Profissionais e Consultorias
-
-Além dos projetos autorais, já atuei em:
-
-- Sistemas administrativos
-- Backoffices complexos
-- Dashboards operacionais
-- Migração de sistemas legados
-- Reestruturação de código caótico
-- Performance tuning em bancos de dados
-- Projetos com prazo curto e impacto real
-
-Muitas vezes entrando quando:
-- O projeto já estava atrasado
+- O escopo já estava atrasado
 - O código já estava frágil
 - A arquitetura já tinha dado sinais de colapso
 
+Aplicações típicas: sistemas administrativos, backoffices complexos, dashboards operacionais, migração de legado, reestruturação de código caótico, performance tuning de banco, prazo curto com impacto real.
+
 ---
 
-## 🧭 O Fio Condutor
+## 📖 Livro autoral
 
-Todos esses projetos compartilham algo em comum:
+Sou autor de um livro próprio. Não é tutorial de framework, é sobre **fundamentos reais de software, engenharia e pensamento técnico** — como pensar sistemas antes de escrever código, como evitar decisões técnicas irreversíveis, como diferenciar complexidade necessária de complexidade inútil, como arquitetura, produto e negócio se cruzam no mundo real.
+
+Escrito a partir de projetos reais — os que escalaram, os que quebraram, os que ensinaram mais do que sucesso.
+
+> Software não é sobre ferramentas. É sobre decisões.
+
+---
+
+## 🧭 O fio condutor
+
+Todos esses projetos compartilham algo:
 
 - Código que alguém vai manter
 - Arquitetura que explica decisões
 - Produto que respeita o usuário
 - Engenharia que respeita o tempo
 
-Nem tudo vira vitrine.  
-Mas tudo vira **base**.
+Nem tudo vira vitrine. Mas tudo vira **base**.
+
+Steply é o veículo. Asteroth é a obra de longo prazo. LucasHiago é o arquiteto.
 
 ---
 
-> Projetos passam.  
+## 📫 Contato
+
+- Site Steply: https://steply.com.br
+- Site pessoal: https://www.lucashiago.com.br
+- Asteroth: https://asteroth.com.br
+- LinkedIn: https://www.linkedin.com/in/lucashdsf/
+- GitHub Sponsors: https://github.com/sponsors/LucasHiago
+
+---
+
+> Software não é arte abstrata.
+> É engenharia aplicada ao mundo real.
+>
+> Projetos passam.
 > Arquitetura fica.
-
-## 📖 Livro Autorais
-
-Além de código, produto e arquitetura, também sou **autor do meu próprio livro**.
-
-Não é um livro de framework.  
-Não é tutorial passo a passo.  
-É um livro sobre **fundamentos reais de software, engenharia e pensamento técnico**.
-
----
-
-## 📘 O Livro
-
-O livro nasce da necessidade de registrar algo que quase nunca é ensinado:
-
-- Como pensar sistemas antes de escrever código
-- Como evitar decisões técnicas irreversíveis
-- Como diferenciar complexidade necessária de complexidade inútil
-- Como arquitetura, produto e negócio se cruzam no mundo real
-
-Ele não tenta formar programadores rápidos.  
-Ele tenta formar **engenheiros conscientes**.
-
----
-
-## 🧠 O que o livro aborda
-
-Alguns temas centrais:
-
-- Fundamentos de arquitetura de software
-- Tomada de decisão técnica sob pressão
-- O custo invisível de más abstrações
-- Backend além do CRUD
-- Frontend além da interface
-- Por que muitos sistemas quebram mesmo “funcionando”
-- Código como responsabilidade de longo prazo
-
-Tudo isso escrito a partir de:
-- Projetos reais
-- Sistemas que escalaram
-- Sistemas que quebraram
-- Erros que custaram caro
-
----
-
-## ✍️ Por que escrever um livro
-
-Porque documentação morre.  
-Porque posts se perdem.  
-Porque vídeos envelhecem rápido.
-
-Um livro força clareza de pensamento.
-
-Escrever foi a forma mais honesta de organizar anos de:
-- Decisões difíceis
-- Refactors dolorosos
-- Sistemas herdados
-- Produtos que deram certo
-- Produtos que ensinaram mais do que sucesso
-
----
-
-## 🧭 A ideia central
-
-> Software não é sobre ferramentas.  
-> É sobre decisões.
-
-O livro não promete atalhos.  
-Ele entrega **fundação**.
-
