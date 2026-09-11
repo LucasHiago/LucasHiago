@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://assets.asteroth.com.br/assets/concepts/letters.png" alt="Asteroth — planeta esférico, mundo player-driven" width="100%" />
+<img src="https://asteroth.com.br/img/letters.webp" alt="Asteroth — planeta esférico, mundo player-driven" width="100%" />
 
 # Steply &amp; LucasHiago
 
